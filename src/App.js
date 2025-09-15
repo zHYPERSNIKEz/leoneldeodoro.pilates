@@ -1,23 +1,43 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <div className="container">
+      <div className="profile">
+        <img
+          className="profile-picture"
+          src="/minha-foto.jpg"
+          alt="Profile"
+        />
+        <h1 className="profile-name">Leonel Deodoro Pilates</h1>
+        <p className="profile-bio">Fisioterapeuta e Instrutor de Pilates</p>
+      </div>
+      <div className="links">
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#"
+          className="link-button"
         >
-          Learn React
+          Agende sua Aula Experimental
         </a>
-      </header>
+        <a
+          href="#"
+          className="link-button"
+        >
+          Planos e Preços
+        </a>
+        <a
+          href="#"
+          className="link-button"
+        >
+          Localização
+        </a>
+        <a
+          href="#"
+          className="link-button"
+        >
+          WhatsApp
+        </a>
+      </div>
     </div>
   );
 }
