@@ -4,9 +4,9 @@ import './Header.scss';
 const Header = () => {
   return (
     <header className="header">
-      <img src="https://via.placeholder.com/150" alt="Profile" className="profile-pic" />
+      <img src="/profile.jpg" alt="Profile" className="profile-pic" />
       <h1>Leonel Deodoro</h1>
-      <p>Pilates e bem-estar</p>
+      <p>Transforme seu corpo e mente com Pilates. Agende sua aula experimental em Nova Iguaçu!</p>
     </header>
   );
 }
