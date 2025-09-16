@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.scss';
+import Header from './components/Header';
+import Link from './components/Link';
+import Footer from './components/Footer';
 
 function App() {
+  const links = [
+    { title: 'Agende sua aula experimental', url: '#' },
+    { title: 'Conheça nosso espaço', url: '#' },
+    { title: 'Planos e preços', url: '#' },
+    { title: 'Blog com dicas de saúde', url: '#' },
+  ];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <main className="links-container">
+        {links.map((link, index) => (
+          <Link key={index} title={link.title} url={link.url} />
+        ))}
+      </main>
+      <Footer />
     </div>
   );
 }

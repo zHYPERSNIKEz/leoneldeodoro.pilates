@@ -1,0 +1,16 @@
+.link {
+  display: block;
+  background-color: #f7fafb;
+  color: #287e69;
+  padding: 1rem;
+  margin: 1rem 0;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}

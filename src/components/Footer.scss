@@ -1,0 +1,15 @@
+.footer {
+  text-align: center;
+  padding: 2rem 0;
+
+  a {
+    color: #f7fafb;
+    font-size: 2rem;
+    margin: 0 1rem;
+    transition: color 0.2s;
+
+    &:hover {
+      color: #ccc;
+    }
+  }
+}
