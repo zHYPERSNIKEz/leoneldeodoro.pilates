@@ -6,7 +6,8 @@ const Header = () => {
     <header className="header">
       <img src="/profile.jpg" alt="Profile" className="profile-pic" />
       <h1>Leonel Deodoro</h1>
-      <p>Transforme seu corpo e mente com Pilates. Agende sua aula experimental em Nova Iguaçu!</p>
+      <p>✨ Saúde e bem-estar com Pilates e Fisioterapia</p>
+      <p>📍 Estamos em Nova Iguaçu – Bairro da Luz</p>
     </header>
   );
 }
